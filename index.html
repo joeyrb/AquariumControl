@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Aquarium Control</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+	<link rel="stylesheet" href="CSS/styles.css">
+</head>
+
+<body>
+<!-- Side Bar Opened -->
+<div class="w3-sidebar w3-bar-block w3-card-2 w3-animate-left" style="display:none" id="mySidebar">
+  <button class="w3-bar-item w3-button w3-large"
+  onclick="w3_close()">Close &times;</button>
+  <a href="#" class="w3-bar-item w3-button">Stocking Info</a>
+  <a href="#" class="w3-bar-item w3-button">Other info</a>
+  <a href="#" class="w3-bar-item w3-button">Settings</a>
+</div>
+
+<div id="main">
+
+<!-- Sidebar Closed -->
+<div class="w3-teal">
+  <button class="w3-button w3-teal w3-xlarge" onclick="w3_open()">&#9776;</button>
+<div class="w3-container">
+    <h1>40-Gallon Freshwater</h1>
+  </div>
+</div>
+
+<div class="w3-row-padding">
+	<div class="w3-third w3-display-left">
+	</div>
+	<div class="w3-third w3-display-middle">
+		<iframe src="http://aquariumcontrol.ddns.net:8081" width="325" height="245"></iframe>
+	</div>
+	<div class="w3-third w3-display-right">
+		<label class="switch"> 
+  		<input type="checkbox">
+  		<div class="slider round"></div>
+		</label> <br/>
+		<label class="switch"> 
+  		<input type="checkbox">
+  		<div class="slider round"></div>
+		</label> <br/>
+		<label class="switch"> 
+  		<input type="checkbox">
+  		<div class="slider round"></div>
+		</label> <br/>
+		<label class="switch"> 
+  		<input type="checkbox">
+  		<div class="slider round"></div>
+		</label> <br/>
+	</div>
+</div>
+
+<script>
+function w3_open() {
+  document.getElementById("main").style.marginLeft = "25%";
+  document.getElementById("mySidebar").style.width = "25%";
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("openNav").style.display = 'none';
+}
+function w3_close() {
+  document.getElementById("main").style.marginLeft = "0%";
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("openNav").style.display = "inline-block";
+}
+</script>
+</body>
+
+</html>
