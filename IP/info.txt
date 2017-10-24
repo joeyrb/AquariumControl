@@ -1,0 +1,6 @@
+Image Processing (IP) folder.
+Contains the code to scan image of a API water test and 
+compute the result for the user.
+
+This code is to be used for the automated process of scanning water test
+results after being mixed using microfluidic slides.
