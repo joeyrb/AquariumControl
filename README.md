@@ -11,19 +11,19 @@ in the terminal needed to install the required components of the server.
 
 The tutorial can be found [here](http://howtoubuntu.org/how-to-install-lamp-on-ubuntu, "Ubuntu LAMP Install")
 
-1. Install Apache
+1. **Install Apache**
 
 To install Apache you must install the Metapackage apache2. This can be done by searching for and installing in the Software Centre, or by running the following command.
 
 `sudo apt-get install apache2`
 
-2. Install MySQL
+2. **Install MySQL**
 
 To install MySQL you must install the Metapackage mysql-server. This can be done by searching for and installing in the Software Centre, or by running the following command.
 
 `sudo apt-get install mysql-server`
 
-3. Install PHP
+3. **Install PHP**
 
 To install PHP you must install the Metapackages php5 and libapache2-mod-php5. This can be done by searching for and installing in the Software Centre, or by running the following command.
 
@@ -32,19 +32,19 @@ To install PHP you must install the Metapackages php5 and libapache2-mod-php5. T
 ## Setup Server
 Now that the LAMP stack is installed (our sever), the server needs to be setup.
 
-1. Restart Server
+1. **Restart Server**
 
 Your server should restart Apache automatically after the installation of both MySQL and PHP. If it doesn't, execute this command.
 
 `sudo /etc/init.d/apache2 restart`
 
-2. Check Apache
+2. **Check Apache**
 
 Open a web browser and navigate to http://localhost/. You should see a message saying It works!
 
-3. Check PHP
+3. **Check PHP**
 You can check your PHP by executing any PHP file from within /var/www/. Alternatively you can execute the following command, which will make PHP run the code without the need for creating a file .
 `php -r 'echo "\n\nYour PHP installation is working fine.\n\n\n";'`
 
 
-## If everything went smoothly (lucky you), you should now have your LAMP stack installed and your server is ready to use!
+#### If everything went smoothly (lucky you), you should now have your LAMP stack installed and your server is ready to use!
