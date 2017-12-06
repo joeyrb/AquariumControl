@@ -9,7 +9,7 @@ is already installed on the machine being used to install the server.
 This section of the README uses the documentation from Ubuntu to show the commands
 in the terminal needed to install the required components of the server.
 
-The tutorial can be found [here](http://howtoubuntu.org/how-to-install-lamp-on-ubuntu, "Ubuntu LAMP Install")
+The tutorial can be found [here](http://howtoubuntu.org/how-to-install-lamp-on-ubuntu "Ubuntu LAMP Install")
 
 1. **Install Apache**
 
@@ -44,6 +44,7 @@ Open a web browser and navigate to http://localhost/. You should see a message s
 
 3. **Check PHP**
 You can check your PHP by executing any PHP file from within /var/www/. Alternatively you can execute the following command, which will make PHP run the code without the need for creating a file .
+
 `php -r 'echo "\n\nYour PHP installation is working fine.\n\n\n";'`
 
 
