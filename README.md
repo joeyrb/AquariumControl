@@ -1,10 +1,10 @@
 # AquariumControl
-
-## Install LAMP Stack
 In order to run everything in the Web folder, the LAMP stack must first be installed.
 LAMP stack stands for Linux, Apache, MySQL, and PHP. These three technologies used
 together create the server that the system runs on. This guide assumes that Linux
 is already installed on the machine being used to install the server. 
+
+## Install LAMP Stack
 
 This section of the README uses the documentation from Ubuntu to show the commands
 in the terminal needed to install the required components of the server.
