@@ -27,7 +27,7 @@ To install MySQL you must install the Metapackage mysql-server. This can be done
 
 To install PHP you must install the Metapackages php5 and libapache2-mod-php5. This can be done by searching for and installing in the Software Centre, or by running the following command.
 
-`sudo apt-get install php5 libapache2-mod-php5`
+`sudo apt-get install php libapache2-mod-php php-mcrypt php-mysql`
 
 ## Setup Server
 Now that the LAMP stack is installed (our sever), the server needs to be setup.
